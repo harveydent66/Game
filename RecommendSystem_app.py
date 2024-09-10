@@ -17,7 +17,7 @@ games_df, similarity_df = getdata()[0], getdata()[1]
 # Sidebar
 st.sidebar.markdown('<strong><span style="color: #8B2500;font-size: 26px;"> Game recommendation</span></strong>',unsafe_allow_html=True)
 
-st.sidebar.markdown('An app by [Long Do](https://doophilong.github.io/Portfolio/)')
+st.sidebar.markdown('An app for [Game Recommender FYP](https://doophilong.github.io/Portfolio/)')
 st.sidebar.image('pexels-pixabay-275033.jpg', use_column_width=True)
 st.sidebar.markdown('<strong><span style="color: #EE4000;font-size: 26px;">:slot_machine: Choose your game !!!</span></strong>',unsafe_allow_html=True)
 ph = st.sidebar.empty()
